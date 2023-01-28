@@ -42,6 +42,9 @@ const NavBar = () => {
 
   // Return the NavBar component
   return (
+
+    /* NAVIGATION BAR */
+    /* The navigation bar appears at the top with a height of 20 pixels */
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
 
       {/* TOP LEFT LOGO */}
