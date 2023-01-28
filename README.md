@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# React JS Portfolio Website Using Tailwind CSS - Build & Deploy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is code for [React JS Portfolio Website Using Tailwind CSS - Build & Deploy
+](https://www.youtube.com/watch?v=LpZrAjU6Hhk) by Programming With Yash.
 
-## Available Scripts
+To run the project, type `npm start` in the terminal and view at: http://localhost:3000
 
-In the project directory, you can run:
+&nbsp;
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Install Tailwind CSS, React Icons and Google Fonts
 
-### `npm test`
+Tailwind CSS is the CSS framework used for this project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Follow the instuctions here](https://tailwindcss.com/docs/guides/create-react-app) to install Tailwind CSS using the terminal.
 
-### `npm run build`
+React Icons will be used as icons in this project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Follow the instructions here](https://react-icons.github.io/react-icons) to install them using the terminal.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Raleway Font from Google Fonts will be used in this project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Go to Google Fonts](https://fonts.google.com/specimen/Raleway?query=raleway), select every style of Raleway and import all of the fonts to index.css.
 
-### `npm run eject`
+Import the Great Vibes font and set it as the signature font.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+&nbsp;
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Navigation Bar
 
-## Learn More
+First, create the top navigation bar.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Create a components folder in the src folder and add a NavBar.jsx file.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Import the NavBar into the App.js file.
 
-### Code Splitting
+### NavBar Component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Import the Hamburger Menu and Close (x) icons for the navigation bar, which will be used for the mobile view.
 
-### Analyzing the Bundle Size
+In NavBar.jsx, create an array of navigation bar links and style it using Tailwind CSS and the map function.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Use a media query to make the navigation bar links hidden when the page is viewed on mobile.
 
-### Making a Progressive Web App
+Create a dropdown menu that is displayed on mobile.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+&nbsp;
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
