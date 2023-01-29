@@ -51,6 +51,23 @@ Create a dropdown menu that is displayed on mobile.
 
 
 
+## Home Page
+
+Next, create the home page.
+
+The home page consists of a title, bio, portfolio button and image.
+
+Create a Home.jsx component and create a series of containers to hold the elements.
+
+Center all of the elements on the page using flex boxes and Tailwind CSS.
+
+Add a gradient to the website background and to the portfolio button.
+
+Use media queries to reposition the image when the window is resized smaller.
+
+&nbsp;
+
+
 
 
 

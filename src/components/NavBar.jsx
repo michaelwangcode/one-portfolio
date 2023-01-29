@@ -6,6 +6,7 @@ import React, {useState} from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 
+
 // The NavBar component in the App
 const NavBar = () => {
 
