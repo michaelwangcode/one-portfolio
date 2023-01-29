@@ -16,7 +16,7 @@ const NavBar = () => {
   // When it is true, display the the Close (x) icon
   const [nav, setNav] = useState(false);
 
-  // Links for the navigation bar
+  // Links for the Navigation Bar
   const links = [
     {
       id: 1,
@@ -38,7 +38,8 @@ const NavBar = () => {
       id: 5,
       link: 'contact'
     },
-  ]
+  ];
+
 
 
   // Return the NavBar component
@@ -104,5 +105,6 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
 
+
+export default NavBar
