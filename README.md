@@ -73,4 +73,14 @@ Use media queries to reposition the image when the window is resized smaller.
 
 Next, create a social media bar that will appear on the left side of the page.
 
+The bar has links to our LinkedIn, Github, Email and Resume.
+
+When a link is hovered over, the text will be displayed.
+
+The bar will be hidden on mobile versions of the site.
+
+Create a SocialLinks.jsx component and add it to the App.js file.
+
+&nbsp;
+
 
