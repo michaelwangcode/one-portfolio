@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 // Import the React icons for the top navigation bar in mobile view
 // FaBars is the Hamburger Menu icon

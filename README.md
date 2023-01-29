@@ -69,6 +69,8 @@ Use media queries to reposition the image when the window is resized smaller.
 
 
 
+## Social Media Links
 
+Next, create a social media bar that will appear on the left side of the page.
 
 
