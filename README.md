@@ -37,8 +37,6 @@ Create a components folder in the src folder and add a NavBar.jsx file.
 
 Import the NavBar into the App.js file.
 
-### NavBar Component
-
 Import the Hamburger Menu and Close (x) icons for the navigation bar, which will be used for the mobile view.
 
 In NavBar.jsx, create an array of navigation bar links and style it using Tailwind CSS and the map function.
@@ -80,6 +78,20 @@ When a link is hovered over, the text will be displayed.
 The bar will be hidden on mobile versions of the site.
 
 Create a SocialLinks.jsx component and add it to the App.js file.
+
+&nbsp;
+
+
+
+## About
+
+Next, create the About section of the site.
+
+The About section consists of a header and two paragraphs of text.
+
+The text is padded and formatted with a flex layout.
+
+Create an About.jsx component and add it to the App.js file.
 
 &nbsp;
 
