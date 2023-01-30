@@ -54,7 +54,7 @@ const Portfolio = () => {
       {/* Container for portfolio title, description and thumbnails */}
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         
-        {/* Container for portfolio title and description */}
+        {/* Container for title and description */}
         <div className="pb-8">
 
           {/* Portfolio title */}
@@ -83,6 +83,8 @@ const Portfolio = () => {
                 
                 {/* Container for the 'Demo' and 'Code' text */}
                 <div className="flex items-center justify-center">
+
+                  {/* Buttons */}
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
                 </div>

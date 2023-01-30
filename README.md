@@ -97,13 +97,32 @@ Create an About.jsx component and add it to the App.js file.
 
 The Portfolio section is a grid of projects the person has completed.
 
-Each project contains an image and text, which is organized a flex boxes.
+Each project contains an image and text organized in a flex boxes.
 
 Elements will pop out slightly when hovered over.
 
 Use media queries to adjust the portfolio grid when the window is resized.
 
 &nbsp;
+
+
+
+## Experience
+
+The Experience section is a grid of all the programming languages and technologies we have used.
+
+Each technology is contains an image and text organized in a flex box.
+
+Elements will pop out slightly when hovered over.
+
+Use media queries to adjust the experience grid when the window is resized.
+
+&nbsp;
+
+
+
+
+
 
 
 
