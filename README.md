@@ -31,7 +31,7 @@ Import the Great Vibes font and set it as the signature font.
 
 ## Navigation Bar
 
-First, create the top navigation bar.
+The Navigation Bar appears at the top of the page.
 
 Create a components folder in the src folder and add a NavBar.jsx file.
 
@@ -51,8 +51,6 @@ Create a dropdown menu that is displayed on mobile.
 
 ## Home Page
 
-Next, create the home page.
-
 The home page consists of a title, bio, portfolio button and image.
 
 Create a Home.jsx component and create a series of containers to hold the elements.
@@ -61,7 +59,7 @@ Center all of the elements on the page using flex boxes and Tailwind CSS.
 
 Add a gradient to the website background and to the portfolio button.
 
-Use media queries to reposition the image when the window is resized smaller.
+Use media queries to adjust the image when the window is resized smaller.
 
 &nbsp;
 
@@ -69,7 +67,7 @@ Use media queries to reposition the image when the window is resized smaller.
 
 ## Social Media Links
 
-Next, create a social media bar that will appear on the left side of the page.
+The social media bar will appear on the left side of the page.
 
 The bar has links to our LinkedIn, Github, Email and Resume.
 
@@ -85,8 +83,6 @@ Create a SocialLinks.jsx component and add it to the App.js file.
 
 ## About
 
-Next, create the About section of the site.
-
 The About section consists of a header and two paragraphs of text.
 
 The text is padded and formatted with a flex layout.
@@ -94,5 +90,20 @@ The text is padded and formatted with a flex layout.
 Create an About.jsx component and add it to the App.js file.
 
 &nbsp;
+
+
+
+## Portfolio
+
+The Portfolio section is a grid of projects the person has completed.
+
+Each project contains an image and text, which is organized a flex boxes.
+
+Elements will pop out slightly when hovered over.
+
+Use media queries to adjust the portfolio grid when the window is resized.
+
+&nbsp;
+
 
 
