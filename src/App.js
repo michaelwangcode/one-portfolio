@@ -15,7 +15,7 @@ function App() {
   // The components of the app
   return (
 
-    <div className>
+    <div>
       <NavBar />
       <Home />
       <About />
