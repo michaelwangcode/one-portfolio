@@ -14,11 +14,11 @@ import { Link } from "react-scroll";
 // The Home component in the App
 const Home = () => {
 
-  /* Return he Home component */
+  /* Return the Home component */
   return (
 
     /* Gradient Background on Home Page */
-    <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
+    <div name="home" className="h-fit w-full bg-gradient-to-b from-black via-black to-gray-800 pt-60">
 
       {/* Container for Home Page Words and Images */}
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">

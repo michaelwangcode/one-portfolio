@@ -153,9 +153,27 @@ Later, we can use the offset property to adjust the exact scroll location of eac
 
 
 
-## Deploy Website using Netlify
+## Bug Fixes
 
+To prevent the layout from breaking on mobile devices, replace the `h-screen` attribute at the top div of each component to `h-fit`.
 
+Then, add `pt-60` to the div to add 240px of padding to the top of each component.
+
+Note: In Tailwind CSS, padding and other values have fixed values.
 
 &nbsp;
+
+
+
+## Deploy Website using Netlify
+
+Connect your GitHub account to Netlify.com and follow the instruction in the tutorial video to deploy the app.
+
+The app can be accessed at this URL:
+
+https://monumental-mochi-649a21.netlify.app/
+
+&nbsp;
+
+
 

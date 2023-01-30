@@ -9,10 +9,13 @@ import Contact from "./components/Contact";
 
 
 
+// The main App
 function App() {
 
+  // The components of the app
   return (
-    <div>
+
+    <div className>
       <NavBar />
       <Home />
       <About />
