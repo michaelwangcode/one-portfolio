@@ -121,8 +121,41 @@ Use media queries to adjust the experience grid when the window is resized.
 
 
 
+## Contact
+
+The Contact section allows visitors to provide their contact info and send you messages.
+
+When a user clicks the submit button, their message is saved in GetForm.io.
+
+GetForm.io is used to manage the contact form and it provides an interface where you can read all of your messages.
+
+A reminder email is also sent whenever you receive a message.
+
+Later, we can add error checking to the form.
+
+&nbsp;
 
 
 
+## Install React Scroll
 
+The React Scroll library is used in the Navigation Bar to scroll down to each component of the website.
+
+Type `npm i react-scroll` in the terminal to install React Scroll.
+
+Create a custom `Link` element for React Scroll and use it in the Navigation Bar, Mobile Navigation Menu and Portfolio Button on the home page.
+
+Use the smooth and duration properties to enable smooth scrolling.
+
+Later, we can use the offset property to adjust the exact scroll location of each section.
+
+&nbsp;
+
+
+
+## Deploy Website using Netlify
+
+
+
+&nbsp;
 

@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 
 // Import the React icons for the top navigation bar in mobile view
-// FaBars is the Hamburger Menu icon
-// FaTimes is the close (X) icon
+// FaBars is the Hamburger Menu icon and FaTimes is the close (X) icon
 import { FaBars, FaTimes } from "react-icons/fa";
+
+// Import the React Scroll library
+import { Link } from "react-scroll";
 
 
 
@@ -65,7 +67,9 @@ const NavBar = () => {
 
           /* Each list item will be styled in CSS and display the link name */
           <li key={id} className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
-            {link}
+            
+            {/* Use the React Scroll library to scroll to the appropriate section */}
+            <Link to={link} smooth duration={500}>{link}</Link>
           </li>
         ))}
       </ul>
@@ -95,7 +99,9 @@ const NavBar = () => {
 
             /* Each list item will be styled in CSS and display the link name */
             <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl">
-              {link}
+              
+              {/* Use the React Scroll library to scroll to the appropriate section and close the menu */}
+              <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
             </li>
           ))}
         </ul>
