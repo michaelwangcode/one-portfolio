@@ -161,6 +161,8 @@ Then, add `pt-60` to the div to add 240px of padding to the top of each componen
 
 Note: In Tailwind CSS, padding and other values have fixed values.
 
+In the index.css file, `background-color: black;` is added to the `<html>` element so a black background is shown when the site bounces from scrolling.
+
 &nbsp;
 
 

@@ -10,6 +10,7 @@
 
 @layer base {
   html {
+    background-color: black;
     font-family: 'Raleway', sans-serif;
   }
 }
